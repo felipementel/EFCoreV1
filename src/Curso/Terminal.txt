@@ -1,0 +1,7 @@
+﻿$ dotnet tool install --global dotnet-ef --version 3.1.5dotnet tool install --global dotnet-ef --version 3.1.5
+
+PM> Add-Migration Initial
+PM> Update-Database
+PM> Script-Migration -o .\Curso\Initial.SQL
+PM> Script-Migration -o .\Curso\Initial2.SQL -idempotent
+PM> Remove-Migration
